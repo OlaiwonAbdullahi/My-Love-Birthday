@@ -18,7 +18,7 @@ function App() {
       </div>
       <div className="mt-4 text-center">
         <h2 className="text-2xl text-text uppercase font-Sevillana">
-          Happy Birthday Babe !!💜🥰🥳🎉
+          Happy Birthday Lorem ....!!💜🥰🥳🎉
         </h2>
 <br/>
 <p className=" text-text text-sm leading-6">
