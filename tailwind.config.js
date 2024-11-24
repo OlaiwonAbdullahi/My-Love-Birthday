@@ -4,7 +4,7 @@ export default {
     extend: {
       fontFamily: {
         Parkinsans: ["Parkinsans", "sans-serif"],
-        Montserrat: ["Montserrat", "serif"],
+        Sevillana: ["Sevillana", "cursive"],
       },
       colors: {
         primary: "#FF69B4",
