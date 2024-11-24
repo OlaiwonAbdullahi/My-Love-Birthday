@@ -8,7 +8,7 @@ function App() {
           <CiHome className="text-primary" /> Home
         </div>
         <div>13th May 2025</div>
-        <div><Menu /></div>
+        <div><Menu </div>
       </div>
     </div>
   );
