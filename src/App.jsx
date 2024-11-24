@@ -21,7 +21,7 @@ function App() {
           Happy Birthday Babe !!💜🥰🥳🎉
         </h2>
 <br/>
-<p className=" text-text text-sm leading-10">Happy Birthday, my love! 🥳💜🎉🎉
+<p className=" text-text text-sm leading-6">Happy Birthday, my love! 🥳💜🎉🎉
 <br/>
 Today is all about celebrating the incredible person you are—kind, beautiful, and my greatest blessing. I’m so grateful for every moment we share, and I can’t wait to create more unforgettable memories with you.
 <br/>
