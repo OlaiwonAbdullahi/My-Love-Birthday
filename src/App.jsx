@@ -10,16 +10,16 @@ function App() {
           <CiHome className="h-7 w-7" aria-label="Home icon" />
         </div>
         <div className="text-sm text-text font-medium">
-          13 May 2025
+          13 <sup>the</sup> May 2025
         </div>  
         <div>
           <CgMenuRound className="h-7 w-7 text-primary" aria-label="Menu icon" />
         </div>
       </div>
       <div className="mt-4 text-center">
-        <p className="text-sm text-gray-600">
-          Welcome to the mobile-friendly version of this application.
-        </p>
+        <h2 className="text-lg text-text">
+          Happy Birthday Babe !!💜🥰🥳🎉
+        </h2>
       </div>
     </div>
   );
