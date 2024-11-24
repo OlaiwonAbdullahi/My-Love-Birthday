@@ -20,13 +20,14 @@ function App() {
         <h2 className="text-2xl text-text uppercase">
           Happy Birthday Babe !!💜🥰🥳🎉
         </h2>
-
+<br/>
+<br/>
 <p className=" text-text text-sm">Happy Birthday, my love! 🥳💜🎉🎉
-
+<br/>
 Today is all about celebrating the incredible person you are—kind, beautiful, and my greatest blessing. I’m so grateful for every moment we share, and I can’t wait to create more unforgettable memories with you.
-
+<br/>
 May this year bring you all the happiness, love, and success you deserve. I’m so lucky to call you mine. Have the most amazing day—you deserve nothing less.
-
+<br/>
 I love you endlessly. 💜💜
 </p>
       </div>
