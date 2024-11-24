@@ -3,13 +3,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Agdasima: ["Agdasima", "serif"],
+        Parkinsans: ["Parkinsans", "san-serif"],
         Montserrat: ["Montserrat", "serif"],
       },
       colors: {
-        primary: "#0F1A1A",
-        primary1: "#021110",
-        primaryHover: "#022E2B",
+        primary: "#FF69B4",
         secondary: "#07F0FF",
         text: "#CDCDCD",
       },
