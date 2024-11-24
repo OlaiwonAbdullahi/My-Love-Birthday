@@ -1,10 +1,31 @@
+import React, { useState, useEffect } from 'react';
+import Confetti from 'react-confetti';
 import { CiHome } from "react-icons/ci";
 import { CgMenuRound } from "react-icons/cg";
 
 function App() {
 
+
+const [windowSize, setWindowSize] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight,
+  });
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    };
+
+    window.addEventListener('resize', handleResize);
+
+return () => window.removeEventListener('resize', handleResize);
+  }, []);
   return (
     <div className="bg-secondary text-text font-Parkinsans min-h-screen px-4 py-2">
+<Confetti width={windowSize.width} height={windowSize.height} />
       <div className="flex justify-between items-center pb-2">   
         <div className="flex items-center gap-2 text-primary">
           <CiHome className="h-7 w-7" aria-label="Home icon" />
@@ -47,3 +68,5 @@ Redeem Your Gift
 }
 
 export default App;
+
+
