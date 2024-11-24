@@ -3,7 +3,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Parkinsans: ["Parkinsans", "san-serif"],
+        Parkinsans: ["Parkinsans", "sans-serif"],
         Montserrat: ["Montserrat", "serif"],
       },
       colors: {
