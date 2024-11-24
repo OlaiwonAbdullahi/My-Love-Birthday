@@ -31,8 +31,8 @@ I love you endlessly. 💜💜
 </p>
       </div>
 
-<div>
-<button className=" bg-secondary border border-primary text-text flex item-center text-sm">
+<div className=" flex justify-center">
+<button className=" bg-secondary border border-primary text-text flex item-center p-2 text-sm">
 Redeem Your Gift
 </button>
 </div>
