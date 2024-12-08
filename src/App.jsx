@@ -39,22 +39,22 @@ return () => window.removeEventListener('resize', handleResize);
       </div>
       <div className="mt-4 text-center">
         <h2 className="text-2xl text-text uppercase font-Sevillana">
-          Happy Birthday Lorem ....!!💜🥰🥳🎉
+          Happy Birthday Babe!!💜🥰🥳🎉
         </h2>
 <br/>
 <p className=" text-text text-sm leading-6">
-
+{/*
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+*/}
 
-
-{/*Happy Birthday, my love! 🥳💜🎉🎉
+Happy Birthday, Folayimi! 🥳💜🎉🎉
 <br/>
 Today is all about celebrating the incredible person you are—kind, beautiful, and my greatest blessing. I’m so grateful for every moment we share, and I can’t wait to create more unforgettable memories with you.
 <br/>
 May this year bring you all the happiness, love, and success you deserve. I’m so lucky to call you mine. Have the most amazing day—you deserve nothing less.
 <br/>
-I love you endlessly. 💜💜*/}
+I love you endlessly. 💜💜
 </p>
       </div>
 <br/>
