@@ -51,12 +51,16 @@ function App() {
 
       {/* CTA Buttons */}
       <div className="flex flex-col items-center gap-4 mt-6">
-<a href="https://wa.link/1y3hs8">
-        <button className="border border-pink-500 text-pink-700 px-6 py-2 rounded-full hover:bg-pink-200 transition duration-300">
-          See Our Memories
-        </button><a/>
+<a
+  href="https://wa.link/1y3hs8"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="border border-pink-500 text-pink-700 px-6 py-2 rounded-full hover:bg-pink-200 transition duration-300 inline-block text-center"
+>
+  One Surprise....
+</a>
         <button className="bg-white text-pink-600 border border-pink-300 px-6 py-2 rounded-full hover:bg-pink-100 transition duration-300">
-          One Surprise...
+          See Our Memories
         </button>
       </div>
 
