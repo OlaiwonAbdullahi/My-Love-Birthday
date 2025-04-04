@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import Confetti from 'react-confetti';
-import { CiHome } from "react-icons/ci";
+import { CiHeart } from "react-icons/ci";
 import { CgMenuRound } from "react-icons/cg";
 
 function App() {
-
-
-const [windowSize, setWindowSize] = useState({
+  const [windowSize, setWindowSize] = useState({
     width: window.innerWidth,
     height: window.innerHeight,
   });
@@ -20,53 +18,56 @@ const [windowSize, setWindowSize] = useState({
     };
 
     window.addEventListener('resize', handleResize);
-
-return () => window.removeEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
+
   return (
-    <div className="bg-secondary text-text font-Parkinsans min-h-screen px-4 py-2">
-<Confetti width={windowSize.width} height={windowSize.height}/>
-      <div className="flex justify-between items-center pb-2">   
-        <div className="flex items-center gap-2 text-primary">
-          <CiHome className="h-7 w-7" aria-label="Home icon" />
+    <div className="bg-pink-100 text-pink-900 font-Poppins min-h-screen px-4 py-3 overflow-x-hidden">
+      <Confetti width={windowSize.width} height={windowSize.height} />
+
+      {/* Header */}
+      <div className="flex justify-between items-center pb-2">
+        <CiHeart className="h-7 w-7 text-pink-500" aria-label="Love icon" />
+        <div className="text-xs text-pink-800 font-semibold">
+          Just Us
         </div>
-        <div className="text-sm text-text font-medium">
-          13 <sup>th</sup> May 2025
-        </div>  
-        <div>
-          <CgMenuRound className="h-7 w-7 text-primary" aria-label="Menu icon" />
-        </div>
+        <CgMenuRound className="h-7 w-7 text-pink-500" aria-label="Menu icon" />
       </div>
-      <div className="mt-4 text-center">
-        <h2 className="text-2xl text-text uppercase font-Sevillana">
-          Happy Birthday Babe!!💜🥰🥳🎉
+
+      {/* Main Love Message */}
+      <div className="mt-6 text-center">
+        <h2 className="text-3xl font-extrabold font-cursive text-pink-700 mb-4">
+          Hey Love...
         </h2>
-<br/>
-<p className=" text-text text-sm leading-6">
-{/*
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-*/}
-
-Happy Birthday, Folayimi! 🥳💜🎉🎉
-<br/>
-Today is all about celebrating the incredible person you are—kind, beautiful, and my greatest blessing. I’m so grateful for every moment we share, and I can’t wait to create more unforgettable memories with you.
-<br/>
-May this year bring you all the happiness, love, and success you deserve. I’m so lucky to call you mine. Have the most amazing day—you deserve nothing less.
-<br/>
-I love you endlessly. 💜💜
-</p>
+        <p className="text-base leading-relaxed">
+          Every moment with you feels like a dream I never want to wake up from.
+          <br /><br />
+          Your smile is my sunshine, your voice is my favorite melody, and your heart is my home.
+          <br /><br />
+          This little corner of the internet is just for *you* — a place to remind you how special you are to me, always.
+        </p>
       </div>
-<br/>
-<div className=" flex justify-center">
-<button className=" bg-secondary border border-primary text-text flex item-center p-2 text-sm">
-Redeem Your Gift
-</button>
-</div>
+
+      {/* CTA Buttons */}
+      <div className="flex flex-col items-center gap-4 mt-6">
+        <button className="bg-pink-500 text-white font-semibold px-6 py-2 rounded-full shadow-md hover:bg-pink-600 transition duration-300">
+          Read a Love Note
+        </button>
+        <button className="border border-pink-500 text-pink-700 px-6 py-2 rounded-full hover:bg-pink-200 transition duration-300">
+          See Our Memories
+        </button>
+        <button className="bg-white text-pink-600 border border-pink-300 px-6 py-2 rounded-full hover:bg-pink-100 transition duration-300">
+          One Surprise...
+        </button>
+      </div>
+
+      {/* Footer */}
+      <div className="text-center text-sm mt-10 text-pink-700">
+        Made with endless love <span className="text-pink-500 ml-1">♥</span>
+      </div>
     </div>
   );
 }
 
 export default App;
-
-
