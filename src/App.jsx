@@ -51,9 +51,6 @@ function App() {
 
       {/* CTA Buttons */}
       <div className="flex flex-col items-center gap-4 mt-6">
-        <button className="bg-pink-500 text-white font-semibold px-6 py-2 rounded-full shadow-md hover:bg-pink-600 transition duration-300">
-          Read a Love Note
-        </button>
         <button className="border border-pink-500 text-pink-700 px-6 py-2 rounded-full hover:bg-pink-200 transition duration-300">
           See Our Memories
         </button>
